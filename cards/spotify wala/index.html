@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+    --a:0;
+}
+        .cardcontainer {
+    height: 66vh;
+  justify-content: space-evenly;
+  gap: 12px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cardcontainer  p {
+  font-size: 14px;
+  position: relative;
+  bottom: 12px;
+  color: rgb(87, 83, 83);
+}
+.cardcontainer  {
+  height: 254px;
+  text-decoration: none;
+}
+.cardcontainer  h2 {
+  color: white;
+  font-size: 17px;
+}
+.artist {
+  position: relative;
+  width: 168px;
+  height: 175px;
+}
+.play {
+  /* border: 2px solid red; */
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  bottom: 0;
+  display: flex;
+  right: 0;
+  padding: 12px 12px;
+  background: green;
+  border-radius: 39px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3px;
+  margin-bottom: 3px;
+  opacity: var(--a);
+  transition: all 0.5s;
+}
+.play svg {
+  opacity: var(--a);
+  width: 13px;
+  transition: all 0.5s;
+}
+    </style>
+</head>
+<body>
+    <!-- <a href="arijit.html"> -->
+        <div data-folder="arijit"  class="card ">
+            <div class="artist">
+
+                    <img src="assets/arijit singh.jpg"  alt="">
+                    <div class="play"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></div>
+                </div>
+                <h2>Arijit Singh</h2>
+                <p>Artist</p>
+            </div>
+        <!-- </a> -->
+</body>
+</html>

@@ -1,0 +1,31 @@
+.box-row{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: space-between;
+    margin: 20px 30PX;
+}
+.box-col{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 20px;
+    max-width: 24%;
+    min-height: 200px;
+    z-index: 1;
+    background: #fff;
+
+
+}
+.box-col h1{
+    font-weight: 500;
+    font-size: 19px;
+}
+.box-col a{
+    font-size: 13px;
+    color: #009999;
+    font-weight: 500;
+}
+.header-box{
+    margin-top: -18vw;
+}
